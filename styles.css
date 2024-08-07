@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 90%;
+    margin: auto;
+    background-color: #ffd59e60;
+    font-family: "Poppins", sans-serif;
+}
+nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-between;
+}
+.header-right ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+    color: rgb(114, 109, 109);
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.header-right ul :hover{
+    color: black;
+    cursor: pointer;
+}
+.header-right ul li a {
+    text-decoration: none;
+    color:  rgb(114, 109, 109);;
+}
+.header-right ul li input ,
+input { 
+    border: none;
+    padding: 20px;
+    color: #C4C4C4;
+    border-radius: 20px ;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+}
+.main {
+    min-height: 100vh;
+}
+.container-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main-right h2 ,
+.right h2 {
+    margin: 60px;
+    text-align: left;
+}
+.main-right p ,
+.right p{
+    margin: 60px;
+    width: 500px;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+button {
+    display: block;
+    width: 150px;
+    margin-left: 75px;
+    margin-bottom: 30px;
+    padding: 8px 24px;
+    border-radius: 20px;
+    background-color: #E58608;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18.66px;
+    font-weight: 500;
+    line-height: 32px;
+}
+button:hover {
+    background-color: white;
+    color: #E58608;
+}
+.main-buttom {
+    display: flex;
+    justify-content: space-around;
+}
+.img2 ,
+.img1 {
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+.breeds , 
+.blog{
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.breeds h2 ,
+.blog h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 67.5px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.breeds p ,
+.blog p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.dogs ,
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.dog span ,
+.blog-section span{
+    display: block;
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.accessorices {
+    display: flex;
+    margin-bottom: 40px;
+}
+.products-left ,
+.right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.products-left h2 {
+    margin: 60px;
+    text-align: left;
+}
+.products-left p{
+    margin: 30px;
+    width: 500px;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.products-right {
+    display: flex;
+    justify-content: space-evenly;
+}
+.products-right img {
+    width: 30%;
+}
+.blog-section {
+    width: 270px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px 0px #0000001A;
+}
+.get-news {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.right input {
+    background-color: #ffd59e60;
+    width: 350px;
+    margin: 50px;
+    color: #000000;
+}
+.contact {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    padding: 30px;
+}
+.contact ul {
+    list-style-type: none;
+}
+.contact ul li {
+    margin-bottom: 10px;
+}
+footer {
+    padding: 20px;
+    color: #000000;
+}
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
